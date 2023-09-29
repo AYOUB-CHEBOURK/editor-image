@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+
+body{
+    background-color: #333;
+}
+.container{
+    background-color: #222;
+    width: 80vw;
+    margin: 30px auto; 
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+
+.filters{
+    padding: 10px 0 ;
+}
+
+.filters label{
+    font-size: 13px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: green;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+#div{
+    color: white;
+    border: 2px dashed white;
+}
+
+.img-box ,canvas{
+    max-width: 500px;
+}
+
+.img-box canvas{
+    max-height: 300px;
+}
+
+.upload{
+    margin-top: 10px;
+}
+
+.upload :hover{
+    background-color: red;
+    border: none;
+}
+
+
+.upload input{
+    display: none;
+}
+
+.upload label{
+    color: white;
+    text-transform: uppercase;
+    border: 2px dashed white;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.filters ul, .filters ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    direction: rtl;
+    width: 90%;
+}
+
+.filters ul li label{
+    color: white;
+}
+
+.filters ul li:last-child{
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.filters ul li a, span{
+    background-color: green;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.filters ul li:last-child :hover{
+    background-color: red;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    height: 100%;
+    text-transform: uppercase;
+    padding: 16px;
+    font-weight: 600;
+}
+
+
+@media  (max-width: 950px) {
+    .container{
+        grid-template-columns: 1fr ;
+        gap: 30px;
+    }
+    .box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .img-box canvas{
+        max-width: 320px;
+    }
+}
