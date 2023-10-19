@@ -102,9 +102,9 @@ body{
     background-color: red;
 }
 
-footer{
+/* footer{
     margin-top: 30px;
-}
+} */
 
 footer div{
     display: flex;
