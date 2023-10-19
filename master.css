@@ -10,7 +10,7 @@ body{
 .container{
     background-color: #222;
     width: 80vw;
-    height: 110%;
+    height: 100%;
     margin: 30px auto; 
     border-radius: 10px;
     display: grid;
