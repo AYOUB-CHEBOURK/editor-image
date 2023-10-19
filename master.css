@@ -132,4 +132,7 @@ footer div{
     .img-box canvas{
         max-width: 320px;
     }
+    #div{
+      padding: 10px;
+    }
 }
