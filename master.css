@@ -10,7 +10,7 @@ body{
 .container{
     background-color: #222;
     width: 80vw;
-    height: 120%;
+    height: 130%;
     margin: 30px auto; 
     border-radius: 10px;
     display: grid;
@@ -103,7 +103,7 @@ body{
 }
 
 footer{
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 footer div{
